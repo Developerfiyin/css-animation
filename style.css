@@ -84,3 +84,23 @@ ul {
     transform: scale(360deg);
   }
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+header > a {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+header ul li {
+  font-weight: 600;
+  padding: 0 70px;
+  opacity: 1;
+}
+h1 {
+  font-size: 50px;
+}
