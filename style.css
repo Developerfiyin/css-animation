@@ -19,7 +19,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: url("image.png");
+  background-color: url("Mars.png");
   background-size: cover;
   animation: scaling 60s linear infinite;
 }
@@ -47,7 +47,40 @@ a {
   text-decoration: none;
   color: wheat;
 }
+
 ul {
   list-style-type: none;
   display: flex;
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  height: 100vh;
+}
+.Mars {
+  position: absolute;
+  animation: movement 40% linear infinite;
+}
+
+@keyframes movement {
+  0% {
+    width: 20rem;
+    top: 10%;
+    right: 30;
+    transform: rotate(0deg);
+  }
+  50% {
+    width: 50rem;
+    top: 20%;
+    right: 10%;
+    transform: rotate(120deg);
+  }
+  100% {
+    width: 20rem;
+    top: 10%;
+    right: 30%;
+    transform: scale(360deg);
+  }
 }
