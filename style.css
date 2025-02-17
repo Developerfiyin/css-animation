@@ -2,7 +2,7 @@
 
 *,
 *::after,
-::before {
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -19,7 +19,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: url("Mars.png");
+  background-color: url("space.png");
   background-size: cover;
   animation: scaling 60s linear infinite;
 }
@@ -117,5 +117,5 @@ main > p {
 }
 .d.flex {
   display: flex;
-  margin-top: ;
+  margin-top: 6%;
 }
