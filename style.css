@@ -136,3 +136,9 @@ main > p {
   font-size: 12px;
   margin-right: 5px;
 }
+.d-flex a:last-child span {
+  background: maroon;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
