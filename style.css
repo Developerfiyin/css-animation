@@ -151,6 +151,17 @@ main > p {
 ul.info {
   padding-top: 5%;
 }
-li.info {
+ul.info li {
   flex: 0 30%;
+}
+ul.info li h5 {
+  margin-bottom: 10px;
+}
+
+ul.info li h4 {
+  margin-bottom: 10px;
+}
+ul.info li p {
+  padding-right: 20%;
+  opacity: 0.75;
 }
