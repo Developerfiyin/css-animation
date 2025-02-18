@@ -15,6 +15,7 @@ body {
 }
 .bg-img {
   position: fixed;
+
   top: 0;
   left: 0;
   right: 0;
@@ -34,7 +35,7 @@ body {
     transform: scale(1);
   }
 }
-.bg img::before {
+.bg-img::before {
   content: "";
   position: absolute;
   top: 0;
@@ -62,6 +63,7 @@ ul {
 .Mars {
   position: absolute;
   animation: movement 40% linear infinite;
+  background: url("Mars.png");
 }
 
 @keyframes movement {
@@ -74,7 +76,7 @@ ul {
   50% {
     width: 50rem;
     top: 20%;
-    right: 10%;
+    right: -10%;
     transform: rotate(120deg);
   }
   100% {
@@ -94,18 +96,18 @@ header > a {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
 }
 header ul li {
   font-weight: 600;
-  padding: 0 70px;
+  padding: 0 20px;
   opacity: 1;
 }
 header ul li:first-child {
   opacity: 1;
 }
 h1 {
-  font-size: 50px;
+  font-size: 54px;
 }
 main {
   padding: top 5%;
@@ -113,9 +115,17 @@ main {
 main > p {
   max-width: 50%;
   opacity: 0.75;
-  font-size: 1.3px;
+  font-size: 13px;
 }
-.d.flex {
+.d-flex {
   display: flex;
-  margin-top: 6%;
+  margin-top: 20%;
+  margin-bottom: 50px;
+}
+.d-flex a {
+  display: flex;
+  margin-right: 50px;
+  font-size: 14px;
+  align-items: center;
+  text-transform: uppercase;
 }
