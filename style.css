@@ -176,3 +176,14 @@ footer {
   z-index: index 999;
   text-align: center;
 }
+footer p {
+  margin: 5px 0;
+}
+footer i {
+  color: red;
+  margin: 0 10px;
+}
+footer a {
+  color: greenyellow;
+  text-decoration: none;
+}
