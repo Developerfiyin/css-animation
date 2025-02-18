@@ -136,9 +136,21 @@ main > p {
   font-size: 12px;
   margin-right: 5px;
 }
-.d-flex a:last-child span {
+.d-flex a:first-child span {
   background: maroon;
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.d-flex a:last-child span {
+  height: 20px;
+  width: 20px;
+  font-size: 7px;
+  border: 1px solid white;
+}
+ul.info {
+  padding-top: 5%;
+}
+li.info {
+  flex: 0 30%;
 }
