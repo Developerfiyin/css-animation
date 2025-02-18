@@ -20,7 +20,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: url("space.png");
+  background: url("space.png") no-repeat fixed center;
   background-size: cover;
   animation: scaling 60s linear infinite;
 }
